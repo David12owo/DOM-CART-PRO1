@@ -1,0 +1,182 @@
+/*globalpresets*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+/*ends here*/
+
+/*----header styling----*/
+header {
+  font-size: large;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+/*----header styling ends here----*/
+
+/*----main styling----*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*----main styling ends here----*/
+
+/*----cart styling----*/
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: aliceblue;
+  padding: 10px;
+  gap: 2rem;
+  margin-inline: 10px;
+}
+/*----cart styling ends here----*/
+
+/*----cart items styling----*/
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.product_image_container {
+  display: flex;
+  align-items: center;
+}
+/*----cart-item-1 styling----*/
+.cart-item-1 {
+  width: 100px;
+  padding-right: 10px;
+}
+/*-----info styling----*/
+.info {
+  padding-right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-item-1 {
+    width: 100px;
+    padding-right: 10px;
+  }
+  .items {
+    width: 500px;
+  }
+  /* .info {
+    padding-right: 10rem;
+  } */
+}
+/*----ends here----*/
+
+/*----name styling----*/
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+/*----delete btn styling----*/
+.btn1 {
+  background-color: rgb(247, 17, 17);
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+
+/*-----price styling----*/
+.priceselect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*----p-tag styling----*/
+p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+/*---- full quantity styling----*/
+.rate {
+  display: flex;
+  flex-direction: row;
+}
+
+/*----plus-btn styling----*/
+.plus-btn {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(36, 218, 36);
+  color: white;
+}
+/*---- number quantity styling----*/
+.quantity {
+  border: none;
+  text-align: center;
+  width: 30px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+/*----minus-btn styling----*/
+.minus-btn {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+}
+/*----hr tag styling----*/
+hr {
+  height: 2px;
+  margin: 5px 0 10px 0;
+  border: 1px solid grey;
+  width: 100%;
+}
+/*----checkout styling----*/
+.checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  font-weight: 200;
+  margin: 2rem;
+}
+/*----btn2 styling----*/
+.btn2 {
+  background-color: rgb(40, 207, 40);
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+/*----cart items styling ends here----*/
+
+/*----total styling / span tag styling----*/
+span {
+  font-size: 25px;
+  font-weight: 400;
+  color: black;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+}
